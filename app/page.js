@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="bg-white">
-      <NavBar openSidebar={openSidebar} setOpenSidebar={setOpenSidebar} />
+      <NavBar setOpenSidebar={setOpenSidebar} />
       <div className="flex">
         <Sidebar
           selected={selected}

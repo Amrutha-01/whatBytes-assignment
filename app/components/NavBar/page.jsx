@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-export default function NavBar({ openSidebar, setOpenSidebar }) {
+export default function NavBar({ setOpenSidebar }) {
   return (
     <div className="p-3 flex items-center justify-between w-full border-b-[1px]">
       <button
