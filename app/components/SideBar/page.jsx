@@ -1,4 +1,4 @@
-import Link from "next/link";
+"use client";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,13 +7,7 @@ import {
   faFile,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function Sidebar({
-  openSidebar,
-  setOpenSidebar,
-  setSelected,
-  selected,
-}) {
-  console.log(selected);
+export default function Sidebar({ openSidebar, setSelected, selected }) {
   return (
     <div
       className={`p-2 px-5 w-[15vw] max-[678px]:bg-gray-100 max-[678px]:w-[35vw] max-[678px]:h-[100vh] ${
